@@ -1,0 +1,9 @@
+1) docker pull <image_name>                 ---->for getting the image from hub to docker deskop
+2) docker create <image_name>               ---->for creating the continer
+3) docker start <continer_id>               ----->for running the continer
+4) docker ps                                ----->for checking if the continer is running or not
+5) docker stop <continer_id>                ----->for stoping the running continer
+6) docker rm <continer_id>                  ------>for deleting the continer
+7) docker build <image_name> <continer_path>  ------>for bulding an image from dockerfile
+8) docker ps                                ----->for checking which continers are in running state
+9) docker --help                            ----->for getting the help 

@@ -1,0 +1,41 @@
+git commands
+
+-git init
+-git status
+-touch file.txt
+-git add.
+-git commit -m
+-git commit -m "add"
+-git branch -m main
+-git remote add origin "http link"
+-git branch krupali
+-git checkout krupali
+-touch file2.txt
+-ls
+file.txt file2.txt
+-git add.
+-git status
+-git commit -m "Files are added in branch krupali"
+-git status
+-ls
+file.txt file2.txt
+-git branch boral
+-git checkout boral
+-ls
+file.txt file2.txt
+-touch fileInBoral.txt
+-git add fileInBoral.txt
+-git status
+-git commit -m "added file in branch krupali"
+-git status
+-ls
+file.txt file2.txt fileInBoral.txt
+-git checkout krupali
+-ls
+file.txt file2.txt
+-git merge boral
+-ls
+file.txt file2.txt fileInBoral.txt
+-git checkout boral
+-ls
+file.txt file2.txt fileInBoral.txt
